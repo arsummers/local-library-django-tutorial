@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>{{ author.first_name }} {{ author.last_name }}</h1>
+<div style="margin-left:20px;margin-top:20px">
+    <h4>Books</h4>
+    <ul>
+        {{ author.book_set.all }}
+    </ul>
+    
+</div>
+{% endblock %}
