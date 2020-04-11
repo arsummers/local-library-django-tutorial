@@ -58,7 +58,7 @@ class LoanedBooksByUserListView(LoginRequiredMixin, generic.ListView):
     def get_queryset(self):
         return BookInstance.objects.filter(borrower=self.request.user).filter(status='o').order_by('due_back')
 
-@permission_required('catalog.can_mark_returned')
+# @permission_required('catalog.can_mark_returned')
 def renew_book_librarian(request, pk):
     book_instance = get_object_or_404(BookInstance, pk=pk)
     
