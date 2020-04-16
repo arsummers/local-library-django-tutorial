@@ -5,3 +5,4 @@ Using [MDN's Django tutorial](https://developer.mozilla.org/en-US/docs/Learn/Ser
 Just in case I end up needing it later, I skipped the part on permissions [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication)
 
 Something is up with the renewal form - check post pesach
+4/16 note: if something's funky it might be the Procfile
