@@ -6,3 +6,5 @@ Just in case I end up needing it later, I skipped the part on permissions [here]
 
 Something is up with the renewal form - check post pesach
 4/16 note: if something's funky it might be the Procfile
+
+don't forget to deploy from master!
