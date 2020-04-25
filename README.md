@@ -8,3 +8,5 @@ Something is up with the renewal form - check post pesach
 4/16 note: if something's funky it might be the Procfile
 
 don't forget to deploy from master!
+
+NOTE: It deploys! But will have to change databse to postgres
