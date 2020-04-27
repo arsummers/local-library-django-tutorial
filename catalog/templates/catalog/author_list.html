@@ -10,6 +10,9 @@
             </li>
         {% endfor %}
     </ul>
+    To create a new author, navigate here: catalog/author/create/
+    To delete an author, navigate here: author/<int:pk>/delete/
+    To update an author, navigate here: author/<int:pk>/update/
     {% else %}
         <p>No one has written any books yet</p>
     {% endif %}
