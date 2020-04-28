@@ -10,3 +10,5 @@ Something is up with the renewal form - check post pesach
 don't forget to deploy from master!
 
 NOTE: It deploys! But will have to change databse to postgres
+
+I might want to do more stylistic changes on this, to make it feel more like my own, but for now, it works!
