@@ -10,7 +10,7 @@
             </li>
         {% endfor %}
     </ul>
-    To create a new author, navigate here: catalog/author/create/
+    <a href="{% url 'author_create' %}">Create a new author</a>
     To delete an author, navigate here: author/<int:pk>/delete/
     To update an author, navigate here: author/<int:pk>/update/
     {% else %}
