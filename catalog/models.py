@@ -11,6 +11,10 @@ class Genre(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        """Returns the url to the genre list"""
+        return reverse('genres')
+
 class Book(models.Model):
     """ model representing a book, but not a specific copy of a book """
     title = models.CharField(max_length=200)

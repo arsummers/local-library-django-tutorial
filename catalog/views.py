@@ -51,6 +51,9 @@ class AuthorListView(generic.ListView):
 class AuthorDetailView(generic.DetailView):
     model = Author
 
+class GenreListView(generic.ListView):
+    model = Genre
+
 class LoanedBooksByUserListView(LoginRequiredMixin, generic.ListView):
     """Generic class-based view listing books on loan to current user."""
     model = BookInstance
@@ -110,3 +113,7 @@ class BookUpdate(UpdateView):
 class BookDelete(DeleteView):
     model = Book
     success_url = reverse_lazy('books')
+
+class GenreCreate(CreateView):
+    model = Genre
+    fields = '__all__'
